@@ -1,0 +1,132 @@
+/* Colors and fonts */
+
+body {
+  background-color: rgb(250,250,250);
+  color: black;
+  font-family: "Lora", serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+/* Titres */
+h1, h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+/* Hello i'm Hala */
+h1 {
+  color : black;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+/* Les Titres des 3 paraghraphes */
+h2 {
+  color : #d24787;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+/* Links */
+a {
+  color: #d24787;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+a:hover {
+  color: #eec4dc;
+  font-weight: lightpink;
+}
+
+
+/* Custmon Design with class */
+
+.container {
+  width: 800px ;
+  margin: 20px auto;
+}
+
+/* Responsive Design @media */
+@media (max-width: 760px) {
+  .container {
+   width: 600px ;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+   width: 500px ;
+  }
+}
+
+.card-white {
+  background: white;
+  padding: 60px;
+  margin: 30px;
+  box-shadow: 0px 10px 30px rgba(3, 3, 3, 0.3);
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* L'Image */
+.img-circle {
+  border-radius: 50%;
+}
+.shadowed {
+  box-shadow: 5px 5px 5px 3px black;
+}
+#leader
+{
+  border: 5px solid #d24787;
+  width: 150px;
+}
+
+/* Link 1 */
+.btn-pink {
+  background-color: #d24787;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-pink:hover {
+  background-color: #eec4dc;
+  color: black;
+}
+
+/* Links Insta + LinkdIn */
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  color: black;
+}
+.list-inline li {
+  display : inline;
+  padding : 10px;
+}
+.list-inline i {
+  font-size: 50px;
+}
+.list-inline i:hover {
+  color : black
+}
+
+/* Space entre paraghraphe 1 et le link */
+#introduction p {
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
